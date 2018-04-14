@@ -1,0 +1,8 @@
+{
+    "name": "ricknmorty-voices",
+    "version": "0.0.0",
+    "label": "Rick n Morty voices",
+    "description": "Unit voices are replaced by voice clips from Rick and Morty",
+    "dependencies": ["0ad=0.0.22"],
+    "url" : "http://twokev.in"
+}
