@@ -1,1 +1,4 @@
-ffmpeg -i AIDS\!.wav -acodec libvorbis AIDS\!.ogg
+for ff in $(ls *.wav)
+do
+    ffmpeg -i $ff -acodec libvorbis "${ff%.*}.ogg"
+done
